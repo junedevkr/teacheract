@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+
+    <Title>10월2일의 학습권도 지켜주세요.</Title>
+     </head>
+
+
+     <body onload="fetchValue()">
+    <div class="main">
+        <div class="top">
+            <h1>10월2일의 학습권도 지켜주세요.</h1>
+            <br>
+            <h3>
+                10월 2일 임시공휴일이 지정될 것으로 보입니다.<br>
+                10월 2일이 임시공휴일이 지정될 경우, 당일 학교도 쉬게 됩니다.<br>
+                10월2일의 학습권에 대한 설문을 조사하고자합니다.<br>
+            </h3>
+        </div>
+        <div class="mid">
+            <div class="mid-1" onclick="window.open('https://forms.gle/Uxd25XXePCTuiGuu6', '_blank');" style="cursor:pointer;">10월2일의 학습권 설문하기</div>
+            <div class="mid-2">
+                <br>
+                <span style="font-size: 1.6rem; font-weight:700">10월2일의 학습권을 지켜달라고 서명하신분<br>
+                    <span id="value"></span>명<br></span><br><br>
+            </div>
+            <div class="mid-3">
+            </div>
+        </div>
+        <div class="bottom">
+        </div>
+    </div>
+     </body>

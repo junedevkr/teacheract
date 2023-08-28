@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center; /* 상하 중앙 정렬 */
+    justify-content: center; /* 좌우 중앙 정렬 */
+    font-family: 'Noto Serif KR', serif;
+    word-break: keep-all; /* 이 부분을 추가 */
+
+}
+
+.main {
+    padding: 20px;
+    width: 100%; /* 전체 너비를 차지하게 함. 필요하다면 원하는 값으로 변경 가능 */
+    max-width: 800px; /* 최대 너비 설정. 원하는 값으로 변경 가능 */
+    text-align: center; /* 텍스트를 가운데 정렬 */
+}
+
+.main > div {
+    display: flex;
+    justify-content: center; /* 자식 요소들을 가운데 정렬 */
+    align-items: center; /* 자식 요소들의 상하 중앙 정렬 */
+    flex-direction: column; /* 자식 요소들을 세로로 배열 */
+    margin: 10px 0; /* 각 div 사이에 상하 여백 추가 */
+}
+
+.mid-1 {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.mid-1:hover {
+    background-color: #333333;
+}
+
+#value {
+    padding-right: 10px;
+    margin: 0;
+}
