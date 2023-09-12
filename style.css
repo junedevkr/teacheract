@@ -1,11 +1,11 @@
 body {
     margin: 0;
-    height: 100vh;
     display: flex;
     align-items: center; /* 상하 중앙 정렬 */
     justify-content: center; /* 좌우 중앙 정렬 */
     font-family: 'Noto Serif KR', serif;
     word-break: keep-all; /* 이 부분을 추가 */
+    overflow: auto;
 
 }
 
@@ -26,7 +26,7 @@ body {
 
 .mid-1 {
     width: 50vw;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 900;
     background-color: black;
     color: white;
